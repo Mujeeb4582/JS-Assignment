@@ -1,0 +1,91 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 40px;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.log {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-item {
+  margin-right: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.navbar img {
+  margin-right: -20px;
+  max-height: 24px;
+  max-width: 24px;
+}
+
+.check-ins {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 40px;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.check-ins__title {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.check-ins__description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.check-ins__button {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  padding: 4px 15px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.table {
+  background-color: #fafafa;
+  padding: 16px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+th, td {
+  padding: 16px;
+}
+
+th {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+td {
+  font-weight: 400;
+  background-color: #fff;
+}
